@@ -1,0 +1,15 @@
+.rst-content .linenodiv pre, .rst-content div[class^=highlight] pre, .rst-content pre.literal-block {
+  font-size: 0.8em;
+}
+
+cite {
+  border: 1px solid #e1e4e5;
+  background: #f8f8f8;
+  font-family: SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,Courier,monospace;
+  font-size: 0.8em;
+  line-height: 1.4;
+}
+
+.wy-nav-content {
+  max-width: none;
+}
