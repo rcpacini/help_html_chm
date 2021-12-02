@@ -3,13 +3,16 @@
 Customized "Read the Docs" theme to compile Windows HTML Help files (chm) and static HTML pages
 using Python + Sphinx + HTML Help Workshop.
 
-The `build_help.bat` batch file helps automate the process to setup the python virtual environment,
-install Sphinx and compile the static HTML + Windows HTML Help CHM files
+The `build_help.bat` batch file automates the process to setup the python virtual environment,
+install Sphinx + Read the Docs theme and compile the static HTML + Windows HTML Help CHM files.
+Some application, like LabVIEW, still use CHM files as their primary help documentation. Using
+Sphinx + Read the Docs allows for help documentation automation to support web based static help
+files and compiled help files.
 
 ![build_help.bat](/_static/build_help.gif)
 
-Outputs the "Read the Docs" theme compatible with both static HTML files (webserver hosting) and
-Windows HTML Help CHM file (single compiled help file)
+Outputs the "Read the Docs" documentation as both static HTML files (for webserver hosting) and
+Windows HTML Help CHM file (for stand-alone compiled help)
 
 ![help_html_chm](/_static/help_html_chm.png)
 
